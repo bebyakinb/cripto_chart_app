@@ -102,7 +102,7 @@ def main():
                                        from_date=today+timedelta(days=1))
 
     if 'date_from' not in st.session_state:
-        st.session_state['date_from'] = today - timedelta(weeks=1)
+        st.session_state['date_from'] = today - timedelta(weeks=40)
     if 'date_to' not in st.session_state:
         st.session_state['date_to'] = today
 
