@@ -3,11 +3,6 @@ import requests
 import pandas as pd
 from datetime import date, datetime, timedelta
 
-
-# Hiding warning about using default parameters through session state.
-from streamlit.elements.utils import _shown_default_value_warning
-_shown_default_value_warning = True
-
 URL = 'http://api.coincap.io/v2/assets'
 
 
